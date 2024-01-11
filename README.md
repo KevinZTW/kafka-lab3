@@ -24,7 +24,7 @@ Kafka 預設行為在每一個分區發送出的訊息是依序排列的，因�
 
 ![](Resources/Pasted image 20240111224505.png)
 
-以下測試上述的實作方式是否如預期，創建如上 produceer 並且依序寫入 a, b, c, d 等十筆資料至 Kafka 並且運行 consumer
+以下測試上述的實作方式是否如預期，創建如上 producer 並且依序寫入 a, b, c, d 等十筆資料至 Kafka 並且運行 consumer
 
 程式執行後也如預期
 ![](Resources/Pasted image 20240110105032.png)
@@ -35,6 +35,6 @@ Kafka 預設行為在每一個分區發送出的訊息是依序排列的，因�
 (單純觀察) 測試以 value 作為 key, 觀察分配到的分區以及是否 consumer 接到的資料順序
 ![](Resources/Pasted image 20240110105316.png)
 
-其餘有看到另一方法是在 producer 寫入的資料帶入 TimeStamp 在 consuemr 端 buffer 資料並在一段時間過後對 N
+其餘有看到另一方法是在 producer 寫入的資料帶入 TimeStamp 在 consumer 端 buffer 資料並在一段時間過後對 N
 秒前的全部資料做排序，但此做法不符合題意
 
