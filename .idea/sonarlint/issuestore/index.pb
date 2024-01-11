@@ -15,3 +15,5 @@ u
 Esrc/main/java/online/kevinztw/kafkalab3/ConstantKafkaKeyStrategy.java,0/f/0feddb837ff1d3740547c0ea80f0862a94d1c82a
 p
 @src/main/java/online/kevinztw/kafkalab3/KafkaRecordConsumer.java,6/8/6849752f68999c439d72319976be7114d58a984c
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
